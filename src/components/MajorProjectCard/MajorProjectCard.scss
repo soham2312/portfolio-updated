@@ -63,6 +63,11 @@
   .image {
     margin-left: -100px;
     z-index: -1;
+
+    img {
+      height: 45vh;
+      width: 40vw;
+    }
   }
 }
 
@@ -73,6 +78,16 @@
   .contents {
     align-items: flex-end;
     margin-left: -100px;
+
     z-index: 1;
+  }
+  .image {
+    margin-left: -100px;
+    z-index: -1;
+
+    img {
+      height: 45vh;
+      width: 40vw;
+    }
   }
 }
