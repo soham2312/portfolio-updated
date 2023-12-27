@@ -49,7 +49,7 @@ const Homepage = () => {
           <span className="gradient__text">
             <strong> {data.majorSkill2} </strong>
           </span>
-          specializing in building exceptional websites.
+          specialized in building exceptional websites.
         </p>
 
         <Link to="/Contact" className="cta-btn">
@@ -57,7 +57,9 @@ const Homepage = () => {
         </Link>
       </div>
 
-      <MovingText text={data.name} />
+      <div className="moving">
+        <MovingText text={data.name} />
+      </div>
       <Footer />
     </motion.div>
   );

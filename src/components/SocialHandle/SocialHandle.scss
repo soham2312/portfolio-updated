@@ -1,0 +1,40 @@
+.socialhandle {
+  position: absolute;
+  top: 200px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  a {
+    text-decoration: none;
+    color: #a7a7a7;
+    transition: all 0.2s;
+
+    .icon {
+      font-size: 28px;
+      margin-bottom: 10px;
+      // border: 2px solid blue;
+    }
+  }
+
+  a:hover {
+    color: #fff;
+  }
+
+  @media (max-width: 1300px) {
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    width: 100%;
+    a {
+      .icon {
+        font-size: 28px;
+      }
+    }
+
+    flex-direction: row;
+    justify-content: center;
+    // border: 2px solid white;
+  }
+}
